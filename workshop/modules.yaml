@@ -5,8 +5,18 @@ modules:
     setup-environment:
         name: Setup Environment
         exit_sign: Start Workshop
-    exercises/01-sample-content:
-        name: Sample Content
+    exercises/01-deployment:
+        name: Create the Deployment
+    exercises/02-service:
+        name: Create the Service
+    exercises/03-ingress:
+        name: Create the Ingress
+    exercises/04-sonarscanner:
+        name: Download sonar scanner
+    exercises/05-configure:
+        name: Configure your project on Sonar
+    exercises/06-run:
+        name: Run sonar-scanner on your code repository
     workshop-summary:
         name: Workshop Summary
         exit_sign: Finish Workshop

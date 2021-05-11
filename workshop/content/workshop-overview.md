@@ -1,1 +1,2 @@
-This is the initial landing page for your workshop. Include in this page a description of what your workshop is about.
+This workshop will let you analyze your reposities through SonarQube, which is an open source product for continuous inspection of code quality. 
+[SonarQube](https://www.sonarqube.org/)

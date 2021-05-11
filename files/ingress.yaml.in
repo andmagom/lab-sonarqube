@@ -1,0 +1,13 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: sonarqube
+spec:
+  rules:
+  - host: sonar-${SESSION_NAMESPACE}.${INGRESS_DOMAIN}
+    http:
+      paths:
+      - path: "/"
+        backend:
+          serviceName: sonarqube-svc
+          servicePort: 9000

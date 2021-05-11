@@ -1,8 +1,13 @@
-name: Markdown Sample
+name: Sonarqube Lab
 
 modules:
     activate:
     - workshop-overview
     - setup-environment
-    - exercises/01-sample-content
+    - exercises/01-deployment
+    - exercises/02-service
+    - exercises/03-ingress
+    - exercises/04-sonarscanner
+    - exercises/05-configure
+    - exercises/06-run
     - workshop-summary
