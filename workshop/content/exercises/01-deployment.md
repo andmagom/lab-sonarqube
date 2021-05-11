@@ -38,5 +38,6 @@ kubectl get deployments
 ```
 This should output
 ```
----------
+NAME                   READY   UP-TO-DATE   AVAILABLE   AGE
+sonarqube-deployment   1/1     1            1           40s
 ```

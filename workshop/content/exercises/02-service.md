@@ -16,7 +16,7 @@ spec:
 
 We just need to apply this file to create our Sonarqube instance
 ```execute
-kubectl apply -f files/sonar.yaml
+kubectl apply -f files/service.yaml
 ```
 This should output
 ```
