@@ -22,6 +22,13 @@ spec:
         image: sonarqube:community
         ports:
         - containerPort: 9000
+        resources:
+          requests:
+            memory: "64Mi"
+            cpu: "250m"
+          limits:
+            memory: "1000Mi"
+            cpu: "1000m"
 
 ```
 We just need to apply this file to create our Sonarqube instance
