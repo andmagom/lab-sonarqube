@@ -1,6 +1,6 @@
 We need to expose our deployment outside the cluster, so we've created the following ingress
 
-```copy
+```
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
