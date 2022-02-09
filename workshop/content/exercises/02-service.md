@@ -14,6 +14,12 @@ spec:
     protocol: TCP
 ```
 
+Append test:
+file: ~/files/service.yaml
+text: |
+        sso:
+          secret: my-sso-credentials
+
 We just need to apply this file to create our Sonarqube instance
 ```execute
 kubectl apply -f files/service.yaml
