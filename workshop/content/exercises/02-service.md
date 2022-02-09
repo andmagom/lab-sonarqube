@@ -18,9 +18,9 @@ Append test:
 
 ```editor:append-lines-to-file
 file: ~/files/service.yaml
-text: |
-          sso:
-            secret: my-sso-credentials
+text: |4
+        sso:
+          secret: my-sso-credentials
 ```
 
 We just need to apply this file to create our Sonarqube instance
