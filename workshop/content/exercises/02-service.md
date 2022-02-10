@@ -22,6 +22,19 @@ text: |4
         sso:
           secret: my-sso-credentials
 ```
+Create Dashboard:
+```dashboard:create-dashboard
+name: "Product Documentation"
+url: www.taringa.net
+```
+
+Update Dashboard:
+```dashboard:reload-dashboard
+name: "Product Documentation"
+url: www.google.com
+```
+
+
 
 We just need to apply this file to create our Sonarqube instance
 ```execute
