@@ -25,13 +25,13 @@ text: |4
 Create Dashboard:
 ```dashboard:create-dashboard
 name: "Product Documentation"
-url: https://www.taringa.net
+url: https://docs.vmware.com/en/Tanzu-Application-Platform/1.0/tap/GUID-prerequisites.html
 ```
 
 Update Dashboard:
 ```dashboard:reload-dashboard
 name: "Product Documentation"
-url: https://www.google.com
+url: https://docs.vmware.com/en/Tanzu-Application-Platform/1.0/tap/GUID-learning-center-workshop-content-workshop-instructions.html
 ```
 
 
