@@ -25,13 +25,13 @@ text: |4
 Create Dashboard:
 ```dashboard:create-dashboard
 name: "Product Documentation"
-url: www.taringa.net
+url: https://www.taringa.net
 ```
 
 Update Dashboard:
 ```dashboard:reload-dashboard
 name: "Product Documentation"
-url: www.google.com
+url: https://www.google.com
 ```
 
 
