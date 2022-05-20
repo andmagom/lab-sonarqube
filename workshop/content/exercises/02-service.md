@@ -31,7 +31,7 @@ url: https://docs.vmware.com/en/Tanzu-Application-Platform/1.0/tap/GUID-prerequi
 Update Dashboard:
 ```dashboard:reload-dashboard
 name: "Product Documentation"
-url: https://conjugador.reverso.net
+url: https://www.youtube.com/embed/wLqsTtpJbBE
 ```
 
 
